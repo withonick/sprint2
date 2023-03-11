@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .friends-list{
+            width: 600px;
+            background-color: #fff;
+            margin-right: 15px;
+        }
+        .friends-list input{
+            width: 558px;
+            padding-left: 40px;
+            height: 40px;
+            border: none;
+            border-bottom: 1px solid #E7EAED;
+            outline: none;
+        }
+        .header{
+            padding: 20px;
+            border-bottom: 1px solid #E7EAED;
+            padding-bottom: 15px;
+        }
+        .friends-list a{
+            text-decoration: none;
+            color: #757575;
+            margin-left: 10px;
+        }
+
+        .friends-list button{
+            float: right;
+            background-color: #4277A5;
+            border: none;
+            color: white;
+            padding: 5px 15px;
+        }
+        .other-friends{
+            width: 300px;
+        }
+
+        .friend_{
+            padding: 15px;
+            display: flex;
+            border-bottom: 1px solid #E7EAED;
+        }
+
+        .friend_ img{
+            border-radius: 50%;
+            width: 60px;
+        }
+        .other-buttons{
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .other-btn-panel{
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .other-friends-list{
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        .other-friends-list span{
+            color: #757575;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-logo">
+            <a href="#">VK</a>
+        </div>
+        <div class="navbar-search">
+            <i class='bx bx-search'></i>
+            <input type="search" class="search-panel" placeholder="Поиск">
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="left-side">
+                <div class="links">
+                <a href="#">Моя страница</a>
+                <a href="#">Новости</a>
+                <a href="#">Сообщения</a>
+                <a href="#">Друзья</a>
+                <a href="#">Группы</a>
+                <a href="#">Фотографии</a>
+                <a href="#">Музыка</a>
+                <a href="#">Видео</a>
+                </div>
+        </div>
+       
+        <div class="friends-list">
+            <div class="header">
+                <span>Все друзья</span>
+            <button>Найти друзей</button>
+            <a href="#">1331</a>
+            <span style="margin-left: 25px;">Друзья онлайн</span>
+            <a href="#">54</a>
+            </div>
+            <i class='bx bx-search' style="top: 158px; left: 422px;"></i>
+            <input type="text" placeholder="Начните вводит имя друга">
+
+            <div class="friends-list-container">
+                <div class="friend_">
+                    <img src="f1.jpg" alt="">
+                    <div style="display: flex; flex-direction: column; margin-left: 10px;" id="friend-info">
+                        <span style="color: #4277A5; font-weight: 600; margin-bottom: 5px;">Камень Джносон</span>
+                        <span style="font-size: 15px; color: #4277A5;">Narxoz University</span>
+                        <span style="font-size: 14px; color: #4277A5; margin-top: 5px;">Написать сообщение</span>
+                    </div>
+                </div>
+                <div class="friend_">
+                    <img src="f2.jpg" alt="">
+                    <div style="display: flex; flex-direction: column; margin-left: 10px;" id="friend-info">
+                        <span style="color: #4277A5; font-weight: 600; margin-bottom: 5px;">Терри Крюс</span>
+                        <span style="font-size: 15px; color: #4277A5;">Narxoz University</span>
+                        <span style="font-size: 14px; color: #4277A5; margin-top: 5px;">Написать сообщение</span>
+                    </div>
+                </div>
+                <div class="friend_">
+                    <img src="f3.webp" alt="">
+                    <div style="display: flex; flex-direction: column; margin-left: 10px;" id="friend-info">
+                        <span style="color: #4277A5; font-weight: 600; margin-bottom: 5px;">Джо Байден</span>
+                        <span style="font-size: 15px; color: #4277A5;">USA</span>
+                        <span style="font-size: 14px; color: #4277A5; margin-top: 5px;">Написать сообщение</span>
+                    </div>
+                </div>
+                <div class="friend_">
+                    <img src="f4.jpg" alt="">
+                    <div style="display: flex; flex-direction: column; margin-left: 10px;" id="friend-info">
+                        <span style="color: #4277A5; font-weight: 600; margin-bottom: 5px;">Карл 3</span>
+                        <span style="font-size: 15px; color: #4277A5;">United Kingdom</span>
+                        <span style="font-size: 14px; color: #4277A5; margin-top: 5px;">Написать сообщение</span>
+                    </div>
+                </div>
+                <div class="friend_">
+                    <img src="f5.jfif" alt="">
+                    <div style="display: flex; flex-direction: column; margin-left: 10px;" id="friend-info">
+                        <span style="color: #4277A5; font-weight: 600; margin-bottom: 5px;">Илон Маск</span>
+                        <span style="font-size: 15px; color: #4277A5;">Space X</span>
+                        <span style="font-size: 14px; color: #4277A5; margin-top: 5px;">Написать сообщение</span>
+                    </div>
+                </div>
+                <div class="friend_">
+                    <img src="f6.jpg" alt="">
+                    <div style="display: flex; flex-direction: column; margin-left: 10px;" id="friend-info">
+                        <span style="color: #4277A5; font-weight: 600; margin-bottom: 5px;">Evil Arthas</span>
+                        <span style="font-size: 15px; color: #4277A5;">Dota 2</span>
+                        <span style="font-size: 14px; color: #4277A5; margin-top: 5px;">Написать сообщение</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="other-friends">
+            <div class="other-btn-panel">
+                <div class="other-buttons" style="background-color: #EDEDFD; font-weight: bold;">
+                    Мои друзья
+                </div>
+                <div class="other-buttons">
+                    Заявки в друзья
+                </div>
+                <div class="other-buttons">
+                    Телефонная книга
+                </div>
+                <div class="other-buttons">
+                    Новые друзья
+                </div>
+                <div class="other-buttons">
+                    Поиск друзей
+                </div>
+                <div class="other-buttons">
+                    Список друзей
+                </div>
+            </div>
+            <div class="other-friends-list" style="margin-top: 20px">
+                <span>Возможные друзья</span>
+                <div class="friend_" style="margin-top: 20px; border: none">
+                    <img src="f1.jpg" alt="">
+                    <div style="display: flex; flex-direction: column; margin-left: 10px;" id="friend-info">
+                        <span style="color: #4277A5; font-weight: 600; margin-bottom: 5px;">Терри Крюс</span>
+                        <span style="font-size: 15px; color: #757575;">23 общих друга</span>
+                        <span style="font-size: 13px; color: #757575; margin-top: 5px;">+ Добавить в друзья</span>
+                    </div>
+                </div>
+                <div class="friend_" style="border: none">
+                    <img src="f2.jpg" alt="">
+                    <div style="display: flex; flex-direction: column; margin-left: 10px;" id="friend-info">
+                        <span style="color: #4277A5; font-weight: 600; margin-bottom: 5px;">Терри Крюс</span>
+                        <span style="font-size: 15px; color: #757575;">12 общих друга</span>
+                        <span style="font-size: 13px; color: #757575; margin-top: 5px;">+ Добавить в друзья</span>
+                    </div>
+                </div>
+                <div class="friend_" style="border: none">
+                    <img src="f3.webp" alt="">
+                    <div style="display: flex; flex-direction: column; margin-left: 10px;" id="friend-info">
+                        <span style="color: #4277A5; font-weight: 600; margin-bottom: 5px;">Джо Байден</span>
+                        <span style="font-size: 15px; color: #757575;">56 общих друга</span>
+                        <span style="font-size: 13px; color: #757575; margin-top: 5px;">+ Добавить в друзья</span>
+                    </div>
+                </div>
+                <div class="friend_" style="border: none">
+                    <img src="f4.jpg" alt="">
+                    <div style="display: flex; flex-direction: column; margin-left: 10px;" id="friend-info">
+                        <span style="color: #4277A5; font-weight: 600; margin-bottom: 5px;">Карл 3</span>
+                        <span style="font-size: 15px; color: #757575;">44 общих друга</span>
+                        <span style="font-size: 13px; color: #757575; margin-top: 5px;">+ Добавить в друзья</span>
+                    </div>
+                </div>
+                <div class="friend_" style="border: none">
+                    <img src="f5.jfif" alt="">
+                    <div style="display: flex; flex-direction: column; margin-left: 10px;" id="friend-info">
+                        <span style="color: #4277A5; font-weight: 600; margin-bottom: 5px;">Илон Маск</span>
+                        <span style="font-size: 15px; color: #757575;">34 общих друга</span>
+                        <span style="font-size: 13px; color: #757575; margin-top: 5px;">+ Добавить в друзья</span>
+                    </div>
+                </div>
+                <div class="friend_" style="border: none">
+                    <img src="f6.jpg" alt="">
+                    <div style="display: flex; flex-direction: column; margin-left: 10px;" id="friend-info">
+                        <span style="color: #4277A5; font-weight: 600; margin-bottom: 5px;">Evil Arthas</span>
+                        <span style="font-size: 15px; color: #757575;">23 общих друга</span>
+                        <span style="font-size: 13px; color: #757575; margin-top: 5px;">+ Добавить в друзья</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

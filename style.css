@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E7EAED;
+}
+
+.navbar{
+    display: flex;
+    padding: 15px;
+    background-color: #4277A5;
+}
+
+.navbar-logo{
+    text-align: center;
+    width: 30%;
+}
+
+.navbar-search{
+    width: 70%;
+}
+
+.navbar-logo a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.search-panel{
+    border: none;
+    background-color: #2C4869;
+    border-radius: 20px;
+    padding: 7px 20px;
+    outline: none;
+    color: #FFF;
+}
+
+.bx-search{
+    position: absolute;
+    left: 470px;
+    top: 22px;
+    color: #757575;
+}
+
+.search-panel::placeholder{
+    padding-left: 10px;
+}
+
+.main{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-side{  
+    display: flex;
+    width: 200px;
+    justify-content: center;
+}
+
+.left-side .links{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.left-side a{
+    margin-top: 15px;
+    text-decoration: none;
+    color: #2C4869;
+}
+
+.main-center{
+    width: 300px;
+}
+
+.right-side{
+    margin-left: 10px;
+    width: 750px;
+    height: 400px;
+}
+
+.profile-container{
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    width: 250px;
+    height: 360px;
+}
+
+.profile-container img{
+    width: 100%;
+}
+
+.btn-div{
+    padding-top: 10px;
+}
+
+.btn-div button{
+    width: 100%;
+    height: 30px;
+    background-color: #E7EAED;
+    border: none;
+    border-radius: 5px;
+    color: #2C4869;
+    font-weight: 500;
+}
+
+.right-blog{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.nick-panel{
+    line-height: 25px;
+    padding: 20px;
+    border-bottom: 1px solid #E7EAED;
+}
+
+.info-panel{
+    margin-top: 10px;
+    display: flex;
+    color: #2C4869;
+    padding: 20px;
+    line-height: 25px;
+    border-bottom: 1px solid #E7EAED;
+}
+
+.inp{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+
+.inp span{
+    margin-bottom: 5px;
+}
+
+.outp{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.outp span{
+    margin-bottom: 5px;
+}
+
+.bottom-panel{
+    display: flex;   
+    justify-content: center;
+}
+
+.panel-container{
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.panel-container a{
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #2C4869;
+    font-size: 20px;
+}
+
+.panel-container span{
+    font-size: 14px;
+}
+
+.friends-panel{
+    width: 250px;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.friends-panel span{
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.friends-panel #friends-count{
+    text-decoration: none;
+    color: #2C4869;
+    font-size: 18px;
+}
+
+.friends-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.friend{
+    margin-left: 20px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.friend a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #2C4869;
+}
+
+.friend-img img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.images-panel{
+    padding: 20px;
+    margin-top: 15px;
+    width: 710px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.images-panel span{
+    margin-right: 5px;
+    color:#757575;
+    font-size: 15px;
+}
+
+.images-panel a{
+    color: #2C4869;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.images{
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.images img{
+    width: 170px;
+}
+
+.post-panel{
+    margin-top: 15px;
+    width: 710px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.post-user{
+    display: flex;
+}
+
+.post-user img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+.post-user a{
+    font-size: 15px;
+    color: #2C4869;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.post-user span{
+    font-size: 14px;
+    color: #757575;
+}
+
+.post-text{
+    color: #2C4869;
+}
